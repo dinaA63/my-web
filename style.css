@@ -1,0 +1,271 @@
+@font-face {
+    font-family: Poiret One;
+    src: url(font/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family: Alumni sans;
+    src: url(font/alumni-sans-italic.ttf);
+}
+body {
+    font-family: 'Poiret One';
+    margin: 0;
+    padding: 0;
+}
+/*шапка*/
+
+header {
+    background-color:#8F7BFF;
+    padding: 30px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Poiret One';
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%;
+}
+.text {
+    text-decoration: none;
+    color: white;
+}
+#headimg {
+    width: 35px;
+}
+a {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+#search {
+    height: 45px;
+}
+
+/*логотип*/
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: auto;
+    font-family: 'Poiret One';
+    font-size: 20px;
+}
+#logo {
+    width: 25%;
+    margin-top: 145px;
+}
+#logo2 {
+    width: 5%;
+    margin-top: 145px;
+}
+
+/*каталог товаров*/
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+#card {
+    flex: 1 0 300px;
+    min-width: 250px;
+    padding: 15px;
+    text-align:center;
+    border-radius: 10px;
+    border-color:#8F7BFF;
+    background-color: #8F7BFF;
+  }
+#cata {
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttcat{
+    font-family: 'Poiret One';
+    font-size: 30px;
+    border: none;
+    background-color: #8F7BFF;
+    color: white;
+}
+.title {
+    font-family: 'Poiret One';
+    font-size: 30px;
+}
+.price {
+    font-family: 'Poiret One';
+    font-size: 23px;
+}
+#textcard {
+    font-family: 'Poiret One';
+    font-size: 25px;
+}
+#textcard h3 {
+    font-size: 30px;
+}
+
+/*оформление заказа*/
+
+.order {
+    font-family: 'Poiret One';
+    font-size: 35px;
+}
+
+.order p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 7%;
+}
+.line {
+    border-bottom: 2px solid #8F7BFF;
+    margin-top: 5px;
+    width: 100%;
+}
+.orderback {
+    background-image: url(img/фонзаказ.jpeg);
+    height: 1000px;
+    width: 100%;
+}
+.others {
+    color: white;
+    background-color: #8F7BFF;
+}
+#unit {
+    width: 800px;
+    height: 75px;
+    background: none;
+    border: 4px solid white;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background:none;
+    margin-left: 27%;
+    margin-bottom: 2%;
+    border-color: #8F7BFF;
+}
+#unitbutt {
+    width: 550px;
+    height: 75px;
+    background-color: #8F7BFF;
+    border: 4px solid #8F7BFF;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 640px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+
+}
+::placeholder {
+    color: white;
+ }
+
+/* бокс со связью */
+
+.contacts {
+    display: flex;
+    margin-bottom: 3%;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+#map {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+#adress {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: 'Poiret One';
+    font-size: 35px;
+}
+#adress hr {
+    color: #8F7BFF;
+}
+
+/* отзывы */
+.reviews { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#review {
+    text-align: left;
+    width: 250px;
+    height: 450px;
+    border: 2px solid #8F7BFF;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+#nameRev {
+    font-family: 'Alumni sans';
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#nameCompRev {
+    font-family: 'Alumni sans';
+    font-size: 25px;
+    color: #7E7E7E;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#textRev {
+    font-family: 'Alumni sans';
+    font-size: 25px;
+    color: #7E7E7E;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+/* футер */
+
+.foot {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foot-img {
+
+}
+#foot-img {
+    height: 50px;
+    width: 70px;
+}
+
+.footImgCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footNameCard {
+    margin-bottom: 10%;
+    font-size: 25px;
+}
+.foot-card {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    font-family: 'Poiret One';
+    background-color: #EEEEEE;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

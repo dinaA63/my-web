@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Сувенирная лавка Priz</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar sticky-top">
+        <a href="#contact" class="text">Контакты</a>
+        <a href="#" class="text">Нанесение логотипа</a>
+        <a href="#" class="text">Оплата</a>
+        <a href="#" class="text">Доставка</a>
+        <a href="#custom" class="text">Как заказать</a>
+        <form class="d-flex">
+            <input id="search" class="form-control me-2" type="Поиск" placeholder="Поиск">
+            <button class="btn btn-outline-success" type="submit" style="background-color: #8F7BFF; border: none;" ><img id="headimg" src="img/screah.png"></button>
+        </form>
+
+    </nav>
+  </header>
+
+  <div class="logo">
+    <nav>
+        <img id="logo" src="img/logoPriz.png">
+        <img id="logo2" src="img/logo2.png">
+    </nav>
+    <p>Сувенирная продукция</p>
+  </div>
+
+  <!-- карусель -->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p><a href="#"><img src="img/1 слайд.jpg" class="d-block w-100" alt="..."></a></p>
+      </div>
+      <div class="carousel-item">
+        <p><a href="#"><img src="img/2 слайд.jpg" class="d-block w-100" alt="..."></a></p>
+      </div>
+      <div class="carousel-item">
+        <p><a href="#"><img src="img/3 слайд.jpg" class="d-block w-100" alt="..."></a></p>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Назад</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Далее</span>
+    </button>
+  </div>
+
+
+<!--1 карточка-->
+
+  <div class="catalog">
+    <div id="card">
+      <div class="card">
+        <img id="cata" src="img/вышивка1.jpg">
+        <div class="title">ВЫШИВКА</div>
+        <div class="price">ОТ 800₽</div>
+      </div>
+      <button id="buttcat" type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#1exampleModal">
+        ПОДРОБНЕЕ
+           </button>
+           <div class="modal fade" id="1exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+           <div class="modal-body">
+            <div id="textcard">
+              <h3>ВЫШИВКА</h3>
+              <p>Издавна вышивка применялась для украшения постельного белья, скатертей, полотенец (рушников), салфеток, халатов и другой мужской и женской одежды, шапок, ремней, сумок. Особенно ценилась вышивка золотой нитью.
+  
+                До XIX века вышивка выполнялась только вручную. Сегодня машинную вышивку, помимо традиционного украшения одежды и предметов быта, применяют для изготовления шевронов, логотипов, эмблем, гербов, нанесения надписей на одежду и аксессуары</p>
+  
+            </div>
+        <button id="buttcat" type="button" id="btn-button" class="btn btn-secondary" data-bs-dismiss="modal">ЗАКРЫТЬ</button>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+        </div>
+
+<!--2 карточка-->
+
+    <div id="card">
+      <div class="card">
+        <img id="cata" src="img/термопечать.jpg">
+        <div class="title">ТЕРМОПЕЧАТЬ</div>
+        <div class="price">ОТ 500₽</div>
+      </div>
+      <button id="buttcat" type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#2exampleModal">
+        ПОДРОБНЕЕ
+           </button>
+           <div class="modal fade" id="2exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+           <div class="modal-body">
+            <div id="textcard">
+              <h3>ТЕРМОПЕЧАТЬ</h3>
+              <p>Термопечать — это распространённый способ прямой печати, то есть нанесения информации в виде текста, графического изображения (штрих-кода, рисунков и т. д.) на поверхность самоклеящейся этикетки.
+
+                Перенос информации происходит посредством нагревания элемента печатающей головки термопринтера и его соприкосновения с термочувствительным слоем бумаги. Область в местах нанесения темнеет за счёт высоких температур, тем самым проявляя чёткое контрастное изображение.</p>
+            </div>
+               <button id="buttcat" type="button" id="btn-button" class="btn btn-secondary" data-bs-dismiss="modal">ЗАКРЫТЬ</button>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+    </div> 
+    
+<!--3 карточка-->
+    <div id="card">
+      <div class="card">
+        <img id="cata" src="img/гравировка.jpg">
+        <div class="title">ГРАВИРОВКА</div>
+        <div class="price">ОТ 1000₽</div>
+      </div>
+      <button id="buttcat" type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#3exampleModal">
+        ПОДРОБНЕЕ
+           </button>
+           <div class="modal fade" id="3exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+           <div class="modal-body">
+            <div id="textcard">
+              <h3>ГРАВИРОВКА</h3>
+              <p>Гравировка существует уже много лет, а если быть точнее, то даже наскальные рисунки и иероглифы пещерных людей по своей сути были ничем иным, как гравировкой. Полагают, что гравировка как ремесло отпочковалось от ювелирного искусства. Многие инструменты, техники выполнения почерпнуты именно у ювелиров. Издревле наносились на доспехи и оружие воинов различные надписи и рисунки. Во многих музеях мира выставляются найденные при раскопках предметы старины, украшенные искусными гравёрами</p>
+            </div>
+          <button id="buttcat" type="button" id="btn-button" class="btn btn-secondary" data-bs-dismiss="modal">ЗАКРЫТЬ</button>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+    </div>
+  </div>
+
+  <!-- оформление заказа -->
+
+  <form>
+    <div class="order">
+      <div class="line" id="custom"></div>
+      <p>ОФОРМЛЕНИЕ ЗАКАЗА</p>
+      <div class="orderback">
+        <br><br><br><br>
+          <select id="unit" class="form-select" required>
+            <option selected class="others">ЦВЕТ</option>
+            <option value="1" class="others">КРАСНЫЙ</option>
+            <option value="2" class="others">СИНИЙ</option>
+            <option value="3" class="others">БЕЛЫЙ</option>
+            <option value="4" class="others">ФИОЛЕТОВЫЙ</option>
+            <option value="5" class="others">РОЗОВЫЙ</option>
+            <option value="6" class="others">ЧЕРНЫЙ</option>
+            <option value="7" class="others">БИРЮЗОВЫЙ</option>
+            <option value="8" class="others">ОРАНЖЕВЫЙ</option>
+            <option value="9" class="others">ГОЛУБОЙ</option>
+            <option value="10" class="others">СЕРЫЙ</option>
+          </select>
+          <select id="unit" class="form-select" required>
+            <option selected class="others">ТИП ТОВАРА</option>
+            <option value="1" class="others">КРУЖКА</option>
+            <option value="2" class="others">ФУТБОЛКА</option>
+            <option value="3" class="others">НОЖ</option>
+            <option value="4" class="others">МАЙКА</option>
+            <option value="5" class="others">СВИТШОТ</option>
+            <option value="6" class="others">ТЕРМОС</option>
+            <option value="7" class="others">ЗОНТ</option>
+            <option value="8" class="others">НОСКИ</option>
+            <option value="9" class="others">ШОППЕР</option>
+            <option value="10" class="others">СУМКА СПОРТИВНАЯ</option>
+            <option value="11" class="others">ШАРФ</option>
+            <option value="12" class="others">КЕПКА</option>
+            <option value="13" class="others">СУМКА ЧЕРЕЗ ПЛЕЧО</option>
+          </select>
+          <select id="unit" class="form-select" required>
+            <option selected class="others">ТИП УСЛУГИ</option>
+            <option value="1" class="others">ВЫШИВКА</option>
+            <option value="2" class="others">ТЕРМОПЕЧАТЬ</option>
+            <option value="3" class="others">ГРАВИРОВКА</option>
+            <option value="4" class="others">БРЕНДИРОВАНИЕ</option>
+            <option value="5" class="others">НАНЕСЕНИЕ СИМВОЛИКИ</option>
+          </select>
+          <input id="unit" type="text" placeholder="КОЛИЧЕСТВО" required>
+          <button id="unitbutt">ОФОРМИТЬ</button>
+        </div>
+    </div>
+  </form>
+
+  <!-- где нас найти -->
+
+
+  <div class="order">
+    <p>ГДЕ НАС НАЙТИ</p>
+    <div class="line"></div>
+  </div>
+
+  <div class="contacts">
+    <div id="map">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7ee168e6f17e128db1eb40e872b46f098d3d1b6da426c559c3b79141902388fe&amp;source=constructor" width="800" height="700" frameborder="0"></iframe>
+    </div>
+    <div id="adress">
+      <p>г. Омск Комарова 13</p>
+      <p>г. Новосибирск 2-ая Трамвайная 28</p>
+      <p>г. Тюмень проспект Культуры 1</p>
+       <hr> 
+      <p>с 09:00 до 19:00</p>
+      <p>Понедельник - Пятница</p>
+      <p>Сб, Вс - выходные</p>
+      <hr> 
+      <p>г. Омск: +7-904-078-18-01</p>
+      <p>г. Новосибирск: +7-908-732-65-34</p>
+      <p>г. Тюмень: +7-903-538-68-38</p>
+    </div>
+  </div>
+  
+  <!-- отзывы -->
+
+  <div class="order">
+    <div class="line"></div>
+    <p>ОТЗЫВЫ</p>
+    <div class="line"></div>
+  </div>
+
+  <div class="reviews">
+    <div id="review">
+      <div id="nameRev"><b>Валерий</b></div>
+      <div id="nameCompRev">Soluxe Hotel Moscow</div>
+      <div id="textRev">Кружки и полотенце понравилось — все супер ! спасибо ! и далее будем к вам обращаться за такими проектами.</div>
+    </div>
+
+    <div id="review">
+      <div id="nameRev"><b>Анастасия</b></div>
+      <div id="nameCompRev">ERSTEVAK</div>
+      <div id="textRev">Большое спасибо компании ПРИЗ за долгое и качественное сотрудничество. Вот уже почти 2 года мы заказываем на постоянной основе.</div>
+    </div>
+
+    <div id="review">
+      <div id="nameRev"><b>Анна</b></div>
+      <div id="nameCompRev">РК-Трейд</div>
+      <div id="textRev">Благодарим за добропорядочность, оперативность и профессионализм в работе. В процессе нашего сотрудничества мы были приятно удивлены.</div>
+    </div>
+
+    <div id="review">
+      <div id="nameRev"><b>Александр</b></div>
+      <div id="nameCompRev">Частное лицо</div>
+      <div id="textRev">Хочу отметить вашего сотрудника Дениса. На прошлой неделе я оформлял заказ, качество обслуживания на высоте!</div>
+    </div>
+  </div>
+  
+  <!-- футер -->
+
+
+  <footer>
+  <div class="foot">
+      <div class="foot-card">
+        <div class="footNameCard">Принимаем к оплате</div>
+        <div class="footImgCard">
+              <div>
+                <div class="foot-img"><img id="foot-img" src="img/mastercard.png"></div>
+                <div class="foot-img"><img id="foot-img" src="img/maestro.png"></div>
+              </div>
+              <div>
+                <div class="foot-img"><img id="foot-img" src="img/visa.png"></div>
+                <div class="foot-img"><img id="foot-img" src="img/mir.png"></div>
+              </div>
+        </div>
+      </div>
+
+      <div class="foot-card">
+        <div class="footNameCard">Помощь по сайту</div>
+        <div class="foot-row"><a href="#">Доставка</a></div>
+        <div class="foot-row"><a href="#">Скидки и акциии</a></div>
+        <div class="foot-row"><a href="#">Вопросы и ответы</a></div>
+        <div class="foot-row"><a href="#">Как оформить заказ</a></div>
+      </div>
+
+      <div class="foot-card">
+        <div class="footNameCard">Мы в социальных сетях</div>
+        <div class="footImgCard">
+            <div>
+              <div class="foot-img"><img id="foot-img" src="img/tg.png"></div>
+            </div>
+            <div>
+              <div class="foot-img"><img id="foot-img" src="img/vk.png"></div>
+            </div>
+        </div>
+      </div>
+
+      <div class="foot-card">
+        <div class="footNameCard">Контакты</div>
+        <div class="foot-row">+7-904-078-18-01</div>
+        <div class="foot-row"><a href="#">Info@priz.ru</a></div>
+        <div class="foot-row">
+          <p>09:00-19:00</p>
+          <p>Понедельник - Пятница</p>
+          <p>Сб, Вс - выходные</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
